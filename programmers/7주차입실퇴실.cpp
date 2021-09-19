@@ -25,7 +25,6 @@ vector<int> solution(vector<int> enter, vector<int> leave) {
       if(leaveTarget == room.end() or lidx >= leave.size()) break;
       room.erase(leaveTarget);
       answer[leave[lidx]-1] = guest[leave[lidx]];
-      cout << leave[lidx]-1 << " : " << guest[leave[lidx]] << "\n";
       lidx ++;
     }
   }
