@@ -1,4 +1,6 @@
 #include <iostream>
+#include <stdio.h>
+
 using namespace std;
 int main(){
   size_t s = 0;
@@ -9,4 +11,6 @@ int main(){
   } else{
     cout << "unsigned win!\n";
   }
+
+  printf("%x %x\n", s, m);
 }
